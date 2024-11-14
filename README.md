@@ -1,2 +1,2 @@
-# learning-pythonPY
- my codes at linar
+#LEARNING PYTHON
+my codes at linar
