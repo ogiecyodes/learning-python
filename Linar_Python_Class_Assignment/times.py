@@ -1,0 +1,6 @@
+#nested loop
+for i in range (1, 13 ): # Overriding or main loop, 11111, 22222,33333...
+  for j in range (1, 13 ): #subloop 123456...
+    # i runs all the range or value in j, then go to next i....repeat till i is exhusted
+   print (f'{i} x {j} = {i * j}')
+   
