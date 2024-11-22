@@ -16,7 +16,7 @@ def deathyear_calculator(gender=str, year_of_birth =int) ->str:
   determine the year of death of the user based on gender and year of birth
   
   Args:
-  year_of_bith = The year of birth of the user
+  year_of_birth = The year of birth of the user
   gender = The gender of the user (either "male" or "female")
   
   return the year on death based on the gender and average death age 
@@ -28,7 +28,6 @@ def deathyear_calculator(gender=str, year_of_birth =int) ->str:
     return year_of_birth + 96
   else:
     return "error"
-  
 user_data = deathyear_calculator(gender=(input("Enter gender: \n")), year_of_birth=int(input('Enter year of birth')))
 print(user_data)
   

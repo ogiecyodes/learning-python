@@ -5,8 +5,18 @@ for x in items:
     
 # Job application that that allows you apply if you within the age range 
 birthyear = int(input("Enter Birth year: "))
-yearlist = (1997, 1998, 1999, 2000,2001, 2002,2003, 2000)
-for x in yearlist: 
-  if yearlist > 1997: print (f"{birthyear} not within qualified age range for application")
-  elif yearlist < 1996 and yearlist >2000:
-    print(f"{birthyear} is qua" )
+if birthyear < 1997:
+  print (f"{birthyear} not within qualified age range for application")
+elif birthyear >= 1997 and birthyear <=2004:
+    print(f"{birthyear} is qualified" )
+else:
+  print ("underage")
+import datetime
+now = datetime.datetime.now()
+age= int(input('year of birth'))
+currrent_age= now.year - age
+if currrent_age >27 or currrent_age <18 : 
+  print(f"{currrent_age} yrs old not qualified. Job age range must be 18-27")
+else:
+  print(f'{currrent_age}qualified')
+  

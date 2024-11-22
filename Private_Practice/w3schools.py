@@ -9,7 +9,6 @@ x = "James "
 y = "Peter "
 z = "Andrew"
 print (x + y + z)
-# global variable- i dont understand
 x = "fantastic"
 def myfunc():
   global x
