@@ -1,4 +1,4 @@
-numbers = [1,3,4,5,6,7,]
+numbers = [1,3,4,5,6,7]
 iterator = iter(numbers)
 print(next(iterator))
 print(next(iterator))
@@ -13,7 +13,7 @@ class learningitems:
     if self.index >= len(self.items):
       raise StopIteration
     items = self.items[self.index]
-    self.index += 1
+    self.index +=1
     return items
   
 items = ["apple", "berry", "mango", "orange", "cherry"]

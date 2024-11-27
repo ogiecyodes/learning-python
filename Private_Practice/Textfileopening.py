@@ -1,2 +1,1 @@
-p = open('myfile.txt', 'x')
-
+p = open('Highcourtcasefile.txt', 'x')# 'x' used to create a txt file

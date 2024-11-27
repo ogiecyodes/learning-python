@@ -83,9 +83,9 @@ Animals = ["lion", 'goat', "pig" ]
 Animals.sort()
 print(Animals)
 Numbers = [90, 56, 34, 20, 7]
-Numbers.sort()
+Numbers.sort()#used in ascending order
 print(Numbers)
-Numbers.sort(reverse=True)
+Numbers.sort(reverse=True) #reverse in decending order
 print(Numbers)
 # Note also that sort function is case sensitive and would print case in caplock in first order
 Animals = ["Lion", 'goat', "Pig" ] 

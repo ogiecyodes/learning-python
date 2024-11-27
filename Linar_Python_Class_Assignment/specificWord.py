@@ -3,5 +3,5 @@ def specificWord(Sentence, word):
     return True
   else:
     return False
-value = specificWord(Sentence=("I Love Python"),word=('Python'))
+value = specificWord(Sentence=input("Enter any sentence:"),word= input('Enter word to check if in sentence:'))
 print(value)

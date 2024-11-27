@@ -1,4 +1,5 @@
 course = "python for beginners"
+c = 'PYTHON'
 #the course variable is storing a string object
 #when a function is part of an a string object it is referred to as method
 print(course.upper())
@@ -26,3 +27,4 @@ print(w)
 e = "white\t black" #\b for backspace
 print (e)
 print(course.count("n"))
+print(c.isupper())

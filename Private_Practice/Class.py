@@ -19,7 +19,7 @@ class BankAccount:
   
 object = BankAccount("Jaja opobo", 1000)
 object.deposit(0)
-object.withdrawal(3000)
+object.withdrawal(300)
 print(object)
 
 

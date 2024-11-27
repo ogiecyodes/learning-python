@@ -8,7 +8,6 @@ if options == "1":
   print ('Loading...')
 elif options == "2":
   levels = input("select level \n Easy \n Hard \n Difficult \n")
-  print ("Loading...")
 elif options == "3":
   exit = input ("Are you sure you want to exit \n a. YES \n b. NO")
   if exit == "a": print ("goodbye") 

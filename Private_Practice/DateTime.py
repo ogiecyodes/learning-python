@@ -1,5 +1,5 @@
 import datetime
-import pytz
+import pytz #converting time between different timezones
 timezone = pytz.timezone('UTC')
 tz = datetime.datetime.now(timezone)
 print(tz)
@@ -11,7 +11,7 @@ future= x + datetime.timedelta(days=10)#add or subtract to current datetime usin
 print(future)
 
 y = datetime.datetime(2008, 5, 6)
-print(y.strftime('%A'))
+print(y.strftime('%A'))#day of the week
 
 z = '2024-12-25'
 obj= datetime.datetime.strptime(z,'%Y-%m-%d')#coverting string to date
