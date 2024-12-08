@@ -21,6 +21,16 @@ iteemlist = learningitems(items)
 for x in iteemlist:
     print(x)
 
+import itertools as it
+x = it.count(10, 1)
+it.repeat
+it.chain
+it.chain.from_iterable
+it.islice
+it.product
+it.combinations
+it.combinations_with_replacement
+
 
     
     

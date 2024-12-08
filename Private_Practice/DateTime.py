@@ -1,8 +1,9 @@
 import datetime
-import pytz #converting time between different timezones
-timezone = pytz.timezone('UTC')
-tz = datetime.datetime.now(timezone)
-print(tz)
+#import pytz #converting time between different timezones
+#from dateutil.tz import tzlocal, gettz
+#timezone = pytz.timezone('UTC')
+#tz = datetime.datetime.now(timezone)
+#print(tz)
 
 x = datetime.datetime.now()
 print(x.year)

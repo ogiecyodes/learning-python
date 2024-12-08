@@ -1,4 +1,0 @@
-# DODOMEH INVENTORY TRACKER
-'''
-
-'''
