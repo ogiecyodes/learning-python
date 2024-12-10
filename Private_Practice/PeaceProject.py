@@ -4,13 +4,12 @@ import tkinter as tk
 from tkinter import messagebox
 import csv
 import re
-import os
 
 #Created a function to valid email
 def valid_email(email):
   #created  variable to store the email pattern
   #imported re to use expression that symbolize how email pattern format
-  emailpattern = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+\.[a-zA-Z0-9._-]{2,}$'
+  emailpattern = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+\.[a-zA-Z0-9._-]$'
   #using the match function from re to check if the email entry matches the email patern
   return re.match(emailpattern, email)
 
