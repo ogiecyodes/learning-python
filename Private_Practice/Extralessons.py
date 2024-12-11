@@ -39,6 +39,5 @@ import asyncio
 import curses
 from time import perf_counter #profiling
 from timeit import timeit,Timer
-import wave #audio
 from struct import pack
 import array
